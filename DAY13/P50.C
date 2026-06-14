@@ -2,7 +2,7 @@
 #include <stdio.h>
 int main()
 {
-    int n, sum = 0;
+    int n, sum = 0,avg;
     printf("enter size of array:");
     scanf("%d", &n);
     int arr[n];
@@ -13,5 +13,7 @@ int main()
         sum = sum + arr[i];
     }
     printf("sum=%d", sum);
+avg=sum/n;
+printf("average=%d",avg);
     return 0;
 }
