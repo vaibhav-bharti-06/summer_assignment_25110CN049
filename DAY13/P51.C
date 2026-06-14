@@ -17,9 +17,7 @@ int main()
     {
         if (arr[i] > max)
         {
-            int temp = max;
             max = arr[i];
-            arr[i] = temp;
         }
     }
     printf("largest:%d\n", max);
@@ -28,9 +26,7 @@ int main()
     {
         if (arr[i] < smallest)
         {
-            int temp = smallest;
             smallest = arr[i];
-            arr[i] = temp;
         }
     }
     printf("smallest:%d",smallest);
